@@ -1,0 +1,117 @@
+section{
+    background: url(../../assets/img/wallpapersden.com_plants-green-abstract_5002x3006.jpg) #132533  no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+img{
+    width: 250px;
+}
+.login-title{
+    padding-bottom: 47px;
+}
+.btn-primary{
+    background-color: #82b440 !important;
+    border: none !important;
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+.login-container .login-content{
+    background: rgba(3,146,207, 0.4);
+    border-radius: 5%;
+}
+.pos-r{
+    position: relative;
+}
+.login-container  .login-header{
+    padding: 10px 30px;
+}
+.login-header h3 {
+    // color: #82b440;
+}
+ .login-container a {
+    color: #132533;
+    
+}
+.login-container{
+    color: #ffffff;
+}
+
+
+.login-container .login-body{
+    padding: 30px 30px;
+}
+.login-container .login-body input.form-control{
+    background: #ffffff;
+    height: 50px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-left: 3px solid transparent;
+    font-size: 16px;
+    -o-transition:all .5s;
+    -webkit-transition:all .5s;
+    transition:all .5s;
+}
+
+.login-container .login-body input.form-control + i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #0392cf;
+    -o-transition:all .5s;
+    -webkit-transition:all .5s;
+    transition:all .5s;
+}
+.login-container .login-body input.form-control:focus + i{
+    
+    color: #82b440;
+}
+.login-container .login-body button {
+    height: 50px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.login-container .login-footer{
+    padding: 20px 0;
+}
+
+
+@media only screen and (max-width: 600px), screen and (max-height: 610px)  {
+     
+     .login-container  {
+        padding: 0px; 
+    }
+     .login-container .login-content {
+         background: none; 
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none; 
+         box-shadow:none; 
+    }
+    .login-header {
+        display: none;
+    }
+    .login-container .login-body {
+        padding: 10px 10px;
+    }
+    .login-container .login-footer {
+        padding: 0;
+    }
+}
+@media only screen and (max-height: 400px)  {
+       .login-container{
+            position: static;
+            transform:none;  
+            padding: 0;    
+        }
+    }
